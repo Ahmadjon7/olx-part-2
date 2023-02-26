@@ -1,0 +1,131 @@
+.auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background:#3A77FF;
+    overflow: hidden;
+    position: relative;
+    font-family: sans-serif;
+}
+.auth-popup{
+    max-width: 450px;
+    min-height: 550px;
+    width: 100%;
+    display: block;
+    background-color: #fff;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+.animation-circle{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+    transform: scale(0);
+    border: 10px solid #fff;
+    border-radius: 50%;
+    animation: scaleout 2s ease-in-out forwards;
+    opacity: 0;
+}
+@keyframes scaleout {
+    80%{
+        opacity: 0.7;
+        transform: scale(14);
+    }
+    100%{
+        opacity: 0.7;
+        transform: scale(12);
+    }
+}
+.auth-pupup__nav{
+    display: flex;
+    justify-content: space-between;
+    li{
+        width: 50%;
+        min-height: 40px;
+        border-bottom: 1px solid #ccc;
+        &:has(.auth__link--active){
+            border-bottom: 2px solid #002f34;
+        }
+        .auth__link{
+            text-decoration: none;
+            color: #474747;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            &--active{
+                color: #002f34;
+                font-weight: 600;
+            }
+        }
+    }
+}
+.auth-create{
+    padding: 1rem;
+}
+.auth-form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    border-top: 1px solid #cccc;
+    padding-top: 30px;
+    input{
+        height: 40px;
+        text-indent: 10px;
+        background-color:#F2F4F5;
+        outline: none;
+        border: none;
+        font-size: 18px;
+        border-radius: 5px;
+        border-bottom: 2px solid transparent;
+        &:focus{
+            border-bottom: 2px solid #002f34;
+        }
+    }
+    button{
+        height: 50px;
+        background: none;
+        background-color:#002f34;
+        color:#fff;
+        font-size: 18px;
+        border-radius: 5px;
+        border: 5px solid #002f34;
+        transition: 0.05s;
+        &:hover{
+            background-color: transparent;
+            color: #002f34;
+        }
+        &:active{
+            opacity: 0.8;
+            background-color: #002f34;
+            color: #fff;
+        }
+    }
+    
+}
+.auth-google-btn{
+    background-color: #fff;
+    border: 2px solid #002f34;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    font-size: 18px;
+    gap: 0 20px;
+    transition: 0.05s;
+    margin:30px 0;
+    border-radius: 5px;
+    svg{
+        font-size: 24px;
+    }
+    &:hover{
+        border: 5px solid #002f34;
+    }
+}

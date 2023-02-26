@@ -1,0 +1,18 @@
+{
+    "header_message" : "Сообщения",
+    "header_profile" : "Профиль",
+    "header_add":"Подать объявление",
+    "categories_search":"Поиск",
+    "categories_title":"Главные категории",
+    "categories_plaseholder":"1 038 505 объявлений рядом",
+    "mainProduct_title":"Премиум объявления",
+    "singleProduct_cart":"Добавить в корзину",
+    "auth_login":"Войти",
+    "auth_create":"Зарегистрироваться",
+    "auth_google":"Продолжить через Google",    
+    "auth_email":"Электронная почта",    
+    "auth_password":"Пароль",
+    "auth_btn":"Зарегистрироваться", 
+    "auth_avatar":"Введите изображение",
+    "auth_name":"Создать имя"  
+}

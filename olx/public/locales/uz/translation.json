@@ -1,0 +1,18 @@
+{
+    "header_message" : "Xabarlar",
+    "header_profile" : "Profil",
+    "header_add":"E'lon berish",
+    "categories_search":"Qidiruv",
+    "categories_title":"Asosiy toifalar",
+    "categories_plaseholder":"1 038 505 e‘lonlar yoningizda",
+    "mainProduct_title":"Premium reklamalar",
+    "singleProduct_cart":"Savatga qo'shish",
+    "auth_login":"Kirish",
+    "auth_create":"Ro'yxatdan o'tish",
+    "auth_google":"Google orqali kirish",    
+    "auth_email":"Elektron pochta",    
+    "auth_password":"Parol",
+    "auth_btn":"Ro'yxatdan o'tish" ,
+    "auth_avatar":"Rasim kiriting",
+    "auth_name":"Ismizni kiriting"  
+}
